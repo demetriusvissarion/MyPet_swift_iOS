@@ -24,5 +24,17 @@ final class MyPetTests: XCTestCase {
         // Assert
         XCTAssertTrue(foodOptions.contains(tastyFood))
     }
+    
+    // Test FizzBuzz
+    func testFizzBuzz() {
+        // Arrange
+        let fizzbuzz = FizzBuzz()
+        
+        // Act
+        var result: String = fizzbuzz.go(number: 15)
+        
+        // Assert
+        XCTAssertTrue(result == "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz")
+    }
 
 }
