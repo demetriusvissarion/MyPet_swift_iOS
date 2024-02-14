@@ -16,6 +16,7 @@
 		1349AE312B7BA68300777844 /* MyPetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1349AE302B7BA68300777844 /* MyPetUITestsLaunchTests.swift */; };
 		1349AE3E2B7BA8CE00777844 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1349AE3D2B7BA8CE00777844 /* Pet.swift */; };
 		1349AE402B7BAC3700777844 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1349AE3F2B7BAC3700777844 /* FizzBuzz.swift */; };
+		1349AE782B7CBF3800777844 /* NameDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1349AE772B7CBF3800777844 /* NameDisplayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		1349AE302B7BA68300777844 /* MyPetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPetUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1349AE3D2B7BA8CE00777844 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		1349AE3F2B7BAC3700777844 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		1349AE772B7CBF3800777844 /* NameDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDisplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				1349AE192B7BA68300777844 /* Preview Content */,
 				1349AE3D2B7BA8CE00777844 /* Pet.swift */,
 				1349AE3F2B7BAC3700777844 /* FizzBuzz.swift */,
+				1349AE772B7CBF3800777844 /* NameDisplayView.swift */,
 			);
 			path = MyPet;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1349AE782B7CBF3800777844 /* NameDisplayView.swift in Sources */,
 				1349AE3E2B7BA8CE00777844 /* Pet.swift in Sources */,
 				1349AE162B7BA68100777844 /* ContentView.swift in Sources */,
 				1349AE142B7BA68100777844 /* MyPetApp.swift in Sources */,
